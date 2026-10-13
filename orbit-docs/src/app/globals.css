@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #4f46e5;
+  --color-brand-dark: #818cf8;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body {
+  background-color: #fff;
+  color: #334155;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dark body {
+  background-color: #020617;
+  color: #cbd5e1;
+}
+:focus-visible { outline: 2px solid var(--color-brand); outline-offset: 2px; }
